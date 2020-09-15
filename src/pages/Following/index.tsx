@@ -22,7 +22,7 @@ const Following : React.FC = () => {
     const items: Item[] = [
       {
         key: 'PAGE_HEADING',
-        render: ()=> <Heading>Following</Heading>
+        render: ()=> <Heading>Following.</Heading>
       },
 
       {

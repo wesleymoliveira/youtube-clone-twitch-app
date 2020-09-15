@@ -1,6 +1,8 @@
 import React from 'react';
 import { MaterialIcons, MaterialCommunityIcons, Feather } from '@expo/vector-icons';
 
+import ThemeToggler from '../ThemeToggler';
+
 import { Container, Avatar, OnlineStatus, RightSide, ButtonHead} from './styles';
 import colors from '../../styles/colors';
 
@@ -12,6 +14,7 @@ const Header: React.FC = () => {
       </Avatar>
 
       <RightSide>
+        <ThemeToggler/>
         <ButtonHead>
           <MaterialIcons
             name="notifications-none"
